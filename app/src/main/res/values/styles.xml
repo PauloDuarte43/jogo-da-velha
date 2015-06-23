@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style>
+	
+	<style name="linearLayoutButton">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center</item>
+	</style>
+	
+	<style name="viewButton">
+		<item name="android:layout_width">100dp</item>
+		<item name="android:layout_height">100dp</item>
+	</style>
+
+</resources>

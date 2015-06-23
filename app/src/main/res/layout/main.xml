@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:orientation="vertical">
+	
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/linearLayoutButton"
+		android:layout_marginBottom="20dp"
+		>
+		<TextView 
+			android:id="@+id/mainTextViewVencedor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textSize="32sp"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/linearLayoutButton">
+		<Button
+			android:id="@+id/mainButton1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Novo Jogo"
+			android:onClick="restartGame"/>
+		<TextView 
+			android:id="@+id/mainTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/linearLayoutButton">
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView1"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView2"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView3"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/linearLayoutButton">
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView4"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView5"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView6"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/linearLayoutButton">
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView7"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView8"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+		<View
+			style="@style/viewButton"
+			android:id="@+id/mainView9"
+			android:background="@drawable/empty"
+			android:onClick="onClickPlay"/>
+	</LinearLayout>
+
+</LinearLayout>
